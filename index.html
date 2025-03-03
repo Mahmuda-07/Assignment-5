@@ -6,9 +6,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Task Dashboard</title>
 </head>
-<body class="bg-[#F4F7FF] p-6">
+<body class="bg-gray-100 p-6">
 
-    <div class=" bg-white w-auto  rounded-md flex justify-between items-center mb-6">
+    <nav class=" bg-white w-full p-4  rounded-md flex justify-between items-center mb-6">
         <h1 class="text-2xl font-bold flex items-center">
              <img class="w-8" src="assets/logo.png" alt="">
             <span class="ml-2">Dev<span class="font-bold">Board</span></span>
@@ -20,7 +20,8 @@
             </div>
             <img src="assets/theme-btn.png" alt="">
         </div>
-    </div>
+    </nav> 
+
     <div class=" bg-white mx-auto grid grid-cols-4 gap-6">
        
         <div class="col-span-3 mt-6">
@@ -38,9 +39,9 @@
                 
                 
                 <!-- Discover Section -->
-                <div class="bg-blue-500 text-white p-4 rounded-lg flex items-center justify-center">
+                <div id="discover" class="bg-blue-500 text-white p-4 rounded-lg flex items-center justify-center">
                     <img src="assets/board.png" alt="">
-                    <h2 class="text-lg font-semibold">Discover Something New Today!</h2>
+                    <h2  class="text-lg font-semibold">Discover Something New Today!</h2>
                 </div>
                 
                 <!-- Date Section -->
@@ -52,7 +53,7 @@
             
             <!-- Task Cards -->
             <div class="grid grid-cols-3 gap-6 mt-6">
-                <!-- Task Card -->
+               
                 <div class="bg-[#F4F7FF] p-4 rounded-lg shadow">
                     <h3 class="font-bold-400 rounded-md w-20 mb-4 bg-[#FFFFFF]">Shop Ease</h3>
                     <p class="text-gray-700 font-semibold mb-2">Fix Mobile Button Issue</p>
@@ -164,5 +165,6 @@
         </div>
     </div>
     <script src="JS/script.js"></script>
+    <script src="JS/blog.js"></script>
 </body>
 </html>

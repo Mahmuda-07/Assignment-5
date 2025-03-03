@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-200 p-6"> 
+
+         <nav class=" bg-white w-full p-4 h-auto rounded-md flex justify-between items-center mb-6">
+            <h1 class="text-2xl font-bold flex items-center">
+                 <img class="w-8" src="assets/logo.png" alt="">
+                <span class="ml-2">Dev<span class="font-bold">Board</span></span>
+            </h1>
+            <div class="flex items-center gap-4">
+                <button id="back-btn" class="bg-[#3752FD] text-white px-3 py-1 rounded text-sm mr-4">Back To Desk</button>
+            </div>
+        </nav>
+        <div class="text-center font-bold text-2xl">
+            <h1>BLOG</h1>
+        </div>
+    
+        <div class="p-6">
+    
+            <!-- Card 1 -->
+            <div class="bg-white p-6 mb-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold text-black mb-4">Question 1: How to select an element in the DOM?</h2>
+                <p class="text-black">
+                    You can use methods like:
+                    <ul class="list-disc ml-6">
+                        <li><b>getElementById()</b></li>
+                        <li><b>getElementsByClassName()</b></li>
+                        <li><b>querySelector()</b></li>
+                    </ul>
+                </p>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="bg-white p-6 mb-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold text-black mb-4">Question 2: What is the difference between innerHTML, innerText, and textContent?</h2>
+                <p class="text-black">
+                    <ul class="list-disc ml-6">
+                        <li><b>innerHTML:</b> Includes HTML content.</li>
+                        <li><b>innerText:</b> Includes only visible text.</li>
+                        <li><b>textContent:</b> Gets the text content .</li>
+                    </ul>
+                </p>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="bg-white p-6 mb-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold text-black mb-4">Question 3: What is event delegation?</h2>
+                <p class="text-black">
+                    Event delegation is adding one event listener to a parent element to handle events from child elements.
+                </p>
+            </div>
+    
+            <!-- Card 4 -->
+            <div class="bg-white p-6 mb-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold text-black mb-4">Question 4: What is event bubbling?</h2>
+                <p class="text-black">
+                    Event bubbling is when an event starts at the target element and then bubbles up to its parent elements.
+                </p>
+            </div>
+    
+            <!-- Card 5 -->
+            <div class="bg-white p-6 mb-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold text-black mb-4">Question 5: How to create, add, and remove elements?</h2>
+                <p class="text-black">
+                    <ul class="list-disc ml-6">
+                        <li><b>Create:</b>  document.createElement()</li>
+                        <li><b>Add:</b> appendChild()</li>
+                        <li><b>Remove:</b> removeChild()</li>
+                    </ul>
+                </p>
+            </div>
+    
+        </div>
+        <script src="JS/back.js"></script>
+    
+     
+     </body>
+     </html>
